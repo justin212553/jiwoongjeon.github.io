@@ -1,6 +1,8 @@
 :root { 
+  --aqua-pearl: #6cbedc;
   --black: #000000;
   --blue-gray: #010f98;
+  --cinnabar: #df3e3f;
   --desert-storm: #f8f8f8;
   --gallery: #efefef;
   --white: #ffffff;
@@ -8,37 +10,62 @@
   --font-size-l: 48px;
   --font-size-m: 28px;
   --font-size-s: 24px;
-  --font-size-xl: 50px;
-  --font-size-xs: 15px;
-  --font-size-xxl: 80px;
-  --font-size-xxxl: 135px;
+  --font-size-xl: 135px;
+  --font-size-xs: 18px;
+  --font-size-xxs: 15px;
+  --font-size-xxxs: 10px;
  
-  --font-family-alternate_gothic_atf-black: "Alternate Gothic ATF-Black", Helvetica;
   --font-family-alternate_gothic_atf-book: "Alternate Gothic ATF-Book", Helvetica;
+  --font-family-alternate_gothic_atf-regular: "Alternate Gothic ATF-Regular", Helvetica;
+  --font-family-alternate_gothic_atf-semilight: "Alternate Gothic ATF-SemiLight", Helvetica;
   --font-family-oswald: "Oswald", Helvetica;
 }
-.oswald-light-black-28px {
+.oswald-normal-black-15px {
   color: var(--black);
   font-family: var(--font-family-oswald);
-  font-size: var(--font-size-m);
+  font-size: var(--font-size-xxs);
   font-style: normal;
-  font-weight: 300;
+  font-weight: 400;
 }
 
-.oswald-light-blue-gray-28px {
+.alternategothicatf-regular-normal-blue-gray-28px {
   color: var(--blue-gray);
-  font-family: var(--font-family-oswald);
+  font-family: var(--font-family-alternate_gothic_atf-regular);
   font-size: var(--font-size-m);
   font-style: normal;
-  font-weight: 300;
+  font-weight: 400;
 }
 
-.oswald-normal-black-15px {
+.alternategothicatf-regular-normal-black-28px {
+  color: var(--black);
+  font-family: var(--font-family-alternate_gothic_atf-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.oswald-bold-black-18px {
   color: var(--black);
   font-family: var(--font-family-oswald);
   font-size: var(--font-size-xs);
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
+}
+
+.oswald-bold-black-48px {
+  color: var(--black);
+  font-family: var(--font-family-oswald);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.oswald-bold-blue-gray-24px {
+  color: var(--blue-gray);
+  font-family: var(--font-family-oswald);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 700;
 }
 
 .alternategothicatf-book-normal-black-24px {
@@ -49,10 +76,9 @@
   font-weight: 400;
 }
 
-.alternategothicatf-black-blue-gray-24px {
-  color: var(--blue-gray);
-  font-family: var(--font-family-alternate_gothic_atf-black);
-  font-size: var(--font-size-s);
+.alternategothicatf-regular-normal-white-28px {
+  font-family: var(--font-family-alternate_gothic_atf-regular);
+  font-size: var(--font-size-m);
   font-style: normal;
-  font-weight: 900;
+  font-weight: 400;
 }
