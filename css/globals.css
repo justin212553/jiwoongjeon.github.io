@@ -1,6 +1,12 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
 
 @import url("https://fonts.googleapis.com/css?family=Oswald:400,700,500,600|Noto+Serif:700,500|Poppins:400|PT+Sans:700|Heebo:400|Zen+Maru+Gothic:400,700");
+@font-face {
+  font-family: "Abhaya Libre ExtraBold-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/AbhayaLibre-ExtraBold.ttf") format("truetype");
+}
 
 .screen a {
   display: contents;
@@ -24,6 +30,12 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.hidden,
+.hidden * {
+  pointer-events: none;
+  visibility: hidden;
 }
 
 * {
