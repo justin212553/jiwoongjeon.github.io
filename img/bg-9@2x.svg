@@ -1,16 +1,3 @@
-<svg width="538" height="540" viewBox="0 0 538 540" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g filter="url(#filter0_d_310:450)">
-<path d="M94 84.5H444C449.247 84.5 453.5 88.7533 453.5 94V446C453.5 451.247 449.247 455.5 444 455.5H94C88.7533 455.5 84.5 451.247 84.5 446V94C84.5 88.7533 88.7533 84.5 94 84.5Z" fill="white" stroke="black"/>
-</g>
-<defs>
-<filter id="filter0_d_310:450" x="0" y="0" width="538" height="540" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-<feOffset/>
-<feGaussianBlur stdDeviation="42"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0.862745 0 0 0 0 0.862745 0 0 0 0 0.862745 0 0 0 0.459 0"/>
-<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_310:450"/>
-<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_310:450" result="shape"/>
-</filter>
-</defs>
+<svg width="370" height="420" viewBox="0 0 370 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M10 0.5H360C365.191 0.5 369.5 5.27223 369.5 11.2903V408.71C369.5 414.728 365.191 419.5 360 419.5H10C4.8086 419.5 0.5 414.728 0.5 408.71V11.2903C0.5 5.27223 4.8086 0.5 10 0.5Z" fill="white" stroke="#CACACA"/>
 </svg>
