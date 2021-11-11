@@ -1,6 +1,6 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
 
-@import url("https://fonts.googleapis.com/css?family=Oswald:400,700,300,500,600|Noto+Serif:400,700|Zen+Kaku+Gothic+Antique:500|Heebo:400|Roboto+Slab:700|Zen+Maru+Gothic:700|Zen+Kaku+Gothic+New:700,500");
+@import url("https://fonts.googleapis.com/css?family=Oswald:400,700,300,500,600|Noto+Serif:400,700|Roboto+Slab:700|Zen+Maru+Gothic:700|Heebo:400|Zen+Kaku+Gothic+Antique:500|Zen+Kaku+Gothic+New:700,500");
 
 .screen a {
   display: contents;
