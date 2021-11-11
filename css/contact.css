@@ -190,7 +190,7 @@
   width: 1013px;
 }
 
-.contact .text-14 {
+.contact .text-17 {
   color: var(--gravel);
   font-family: var(--font-family-zen_kaku_gothic_antique);
   font-size: 15px;
@@ -449,7 +449,7 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
   white-space: nowrap;
 }
 
-.contact .text-13 {
+.contact .text-16 {
   align-self: flex-end;
   letter-spacing: 0;
   line-height: 38px;
@@ -484,7 +484,7 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
   width: 322px;
 }
 
-.contact .text-12 {
+.contact .text-15 {
   color: var(--cod-gray);
   font-family: var(--font-family-oswald);
   font-size: var(--font-size-m);
@@ -732,7 +732,7 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
   letter-spacing: 9.74px;
 }
 
-.contact .text-15 {
+.contact .text-18 {
   height: 49px;
   letter-spacing: 2.44px;
   margin-top: 14px;
@@ -872,7 +872,7 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
   width: 1668px;
 }
 
-.contact2 .effect-shape1 {
+.contact2 .effect-shape2 {
   align-items: flex-start;
   display: flex;
   height: 439px;
@@ -1004,7 +1004,7 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
   width: 887px;
 }
 
-.contact2 .text-46 {
+.contact2 .text-75 {
   color: var(--gravel);
   font-family: var(--font-family-zen_kaku_gothic_antique);
   font-size: 13.1px;
@@ -1271,7 +1271,7 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
   width: 78px;
 }
 
-.contact2 .text-45 {
+.contact2 .text-74 {
   align-self: flex-end;
   letter-spacing: 0;
   line-height: 33.3px;
@@ -1314,7 +1314,7 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
   width: 282px;
 }
 
-.contact2 .text-44 {
+.contact2 .text-73 {
   color: var(--cod-gray);
   font-family: var(--font-family-oswald);
   font-size: var(--font-size-s);
@@ -1563,7 +1563,7 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
   letter-spacing: 8.53px;
 }
 
-.contact2 .text-47 {
+.contact2 .text-76 {
   height: 49px;
   letter-spacing: 2.13px;
   margin-top: 22px;
@@ -1713,7 +1713,7 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
   width: 1431px;
 }
 
-.contact3 .effect-shape2 {
+.contact3 .effect-shape1 {
   align-items: flex-start;
   display: flex;
   height: 376px;
@@ -1845,7 +1845,7 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
   width: 761px;
 }
 
-.contact3 .text-75 {
+.contact3 .text-71 {
   color: var(--gravel);
   font-family: var(--font-family-zen_kaku_gothic_antique);
   font-size: 11.3px;
@@ -2120,7 +2120,7 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
   width: 67px;
 }
 
-.contact3 .text-74 {
+.contact3 .text-70 {
   align-self: flex-end;
   letter-spacing: 0;
   line-height: 28.5px;
@@ -2163,7 +2163,7 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
   width: 241px;
 }
 
-.contact3 .text-73 {
+.contact3 .text-69 {
   color: var(--cod-gray);
   font-family: var(--font-family-oswald);
   font-size: var(--font-size-xs);
@@ -2426,7 +2426,7 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
   letter-spacing: 7.32px;
 }
 
-.contact3 .text-76 {
+.contact3 .text-72 {
   height: 49px;
   letter-spacing: 1.83px;
   margin-top: 30px;
@@ -2530,10 +2530,10 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
    }
 }
 @media screen and (min-width: 1920px) {
-  .screen.contact2 { 
+  .screen.contact3 { 
     display: none;
    }
-  .screen.contact3 { 
+  .screen.contact2 { 
     display: none;
    }
 }

@@ -70,7 +70,7 @@
   top: 118px;
 }
 
-.contact-2 .overlap-group2 {
+.contact-2 .overlap-group1 {
   height: 446px;
   position: relative;
   width: 356px;
@@ -108,7 +108,7 @@
   width: 71px;
 }
 
-.contact-2 .overlap-group1 {
+.contact-2 .overlap-group2 {
   align-self: flex-end;
   height: 349px;
   margin-bottom: 33.4px;
@@ -521,7 +521,7 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
   width: 535px;
 }
 
-.contact-2 .overlap-group-5 {
+.contact-2 .overlap-group1-2 {
   align-items: flex-end;
   background-color: var(--white);
   border: 1px solid var(--black);
@@ -795,7 +795,7 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
   min-width: 1949px;
 }
 
-.contact-2 .overlap-group-6 {
+.contact-2 .overlap-group-5 {
   align-items: flex-end;
   background-color: var(--telepossible-blue);
   display: flex;

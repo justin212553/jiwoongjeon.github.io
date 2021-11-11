@@ -145,13 +145,13 @@
   width: 602px;
 }
 
-.about .text-57 {
+.about .text-56 {
   letter-spacing: 0;
   min-height: 150px;
   width: 470px;
 }
 
-.about .text-56 {
+.about .text-55 {
   color: var(--jaguar);
   font-family: var(--font-family-zen_maru_gothic);
   font-size: 24px;
@@ -238,7 +238,7 @@
   width: 124px;
 }
 
-.about .text-55 {
+.about .text-54 {
   letter-spacing: 0;
   line-height: 34px;
   margin-bottom: 5.0px;
@@ -297,7 +297,7 @@
   width: 621px;
 }
 
-.about .text-49 {
+.about .text-48 {
   letter-spacing: 0;
   line-height: 18px;
   margin-left: 16px;
@@ -315,7 +315,7 @@
   line-height: 40px;
 }
 
-.about .text-50 {
+.about .text-49 {
   color: transparent;
   font-family: var(--font-family-oswald);
   font-size: var(--font-size-m);
@@ -368,7 +368,7 @@
   width: 621px;
 }
 
-.about .text-51 {
+.about .text-50 {
   color: var(--orange);
   font-family: var(--font-family-noto_serif);
   font-size: 30px;
@@ -381,7 +381,7 @@
   width: 484px;
 }
 
-.about .text-52 {
+.about .text-51 {
   letter-spacing: 0;
   line-height: 18px;
   margin-left: 5px;
@@ -444,7 +444,7 @@
   width: 124px;
 }
 
-.about .text-58 {
+.about .text-57 {
   letter-spacing: 0;
   line-height: 34px;
   margin-left: 31px;
@@ -623,7 +623,7 @@
   width: 250px;
 }
 
-.about .text-53 {
+.about .text-52 {
   letter-spacing: 0;
   margin-right: 4.0px;
   margin-top: 16px;
@@ -675,7 +675,7 @@
   width: 466px;
 }
 
-.about .text-54 {
+.about .text-53 {
   color: var(--orange);
   font-family: var(--font-family-oswald);
   font-size: 24px;
@@ -976,7 +976,7 @@
   letter-spacing: 9.74px;
 }
 
-.about .text-48 {
+.about .text-47 {
   height: 49px;
   letter-spacing: 2.44px;
   margin-top: 14px;
@@ -2301,7 +2301,7 @@
   width: 466px;
 }
 
-.about3 .text-2-1 {
+.about3 .text-59 {
   letter-spacing: 0;
   line-height: 13.5px;
   margin-left: 12.02px;
@@ -2319,7 +2319,7 @@
   line-height: 30.0px;
 }
 
-.about3 .text-3-1 {
+.about3 .text-60 {
   color: transparent;
   font-family: var(--font-family-oswald);
   font-size: var(--font-size-xs);
@@ -2382,7 +2382,7 @@
   width: 466px;
 }
 
-.about3 .text-4-1 {
+.about3 .text-61 {
   color: var(--orange);
   font-family: var(--font-family-noto_serif);
   font-size: 22.5px;
@@ -2395,7 +2395,7 @@
   width: 364px;
 }
 
-.about3 .text-5-1 {
+.about3 .text-62 {
   letter-spacing: 0;
   line-height: 13.5px;
   margin-left: 3.76px;
@@ -2468,7 +2468,7 @@
   width: 453px;
 }
 
-.about3 .text-10-1 {
+.about3 .text-67 {
   color: var(--jaguar);
   font-family: var(--font-family-noto_serif);
   font-size: 41.3px;
@@ -2478,7 +2478,7 @@
   width: 353px;
 }
 
-.about3 .text-9-1 {
+.about3 .text-66 {
   color: var(--jaguar);
   font-family: var(--font-family-zen_maru_gothic);
   font-size: var(--font-size-m);
@@ -2575,7 +2575,7 @@
   width: 93px;
 }
 
-.about3 .text-8-1 {
+.about3 .text-65 {
   align-self: center;
   letter-spacing: 0;
   line-height: 25.5px;
@@ -2719,7 +2719,7 @@
   width: 93px;
 }
 
-.about3 .text-11-1 {
+.about3 .text-68 {
   letter-spacing: 0;
   line-height: 25.5px;
   margin-bottom: 0;
@@ -2802,7 +2802,7 @@
   letter-spacing: 7.32px;
 }
 
-.about3 .text-1-1 {
+.about3 .text-58 {
   height: 49px;
   letter-spacing: 1.83px;
   margin-top: 30px;
@@ -3071,7 +3071,7 @@
   width: 187px;
 }
 
-.about3 .text-6-1 {
+.about3 .text-63 {
   letter-spacing: 0;
   margin-right: 4.0px;
   margin-top: 12px;
@@ -3123,7 +3123,7 @@
   width: 350px;
 }
 
-.about3 .text-7-1 {
+.about3 .text-64 {
   color: var(--orange);
   font-family: var(--font-family-oswald);
   font-size: var(--font-size-m);
@@ -3410,10 +3410,10 @@
    }
 }
 @media screen and (min-width: 1680px) and (max-width: 1919px) {
-  .screen.about3 { 
+  .screen.about { 
     display: none;
    }
-  .screen.about { 
+  .screen.about3 { 
     display: none;
    }
 }
