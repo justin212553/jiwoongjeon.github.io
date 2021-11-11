@@ -35,37 +35,38 @@
 }
 
 .contact .overlap-group-1 {
-  height: 605px;
-  left: 55px;
+  height: 604px;
+  left: 112px;
   position: absolute;
   top: 0;
-  width: 2036px;
+  width: 1980px;
 }
 
 .contact .mask-group {
   background-color: var(--telepossible-white);
   height: 604px;
-  left: 110px;
+  left: 54px;
   position: absolute;
-  top: 1px;
+  top: 0;
   width: 1926px;
 }
 
 .contact .rectangle-3 {
-  height: 605px;
+  height: 604px;
   left: 0;
   position: absolute;
   top: 0;
-  width: 1904px;
+  width: 1791px;
 }
 
-.contact .effect-shape2 {
+.contact .effect-shape1 {
   align-items: flex-start;
   display: flex;
   height: 501px;
+  justify-content: flex-end;
   left: 0;
   min-width: 2084px;
-  padding: 0 21px;
+  padding: 0 41.4px;
   position: absolute;
   top: 118px;
 }
@@ -73,15 +74,15 @@
 .contact .overlap-group1 {
   height: 446px;
   position: relative;
-  width: 356px;
+  width: 282px;
 }
 
 .contact .polygon-5 {
   height: 237px;
-  left: 13px;
+  left: 6px;
   position: absolute;
   top: 210px;
-  width: 274px;
+  width: 140px;
 }
 
 .contact .polygon-9 {
@@ -89,12 +90,12 @@
   left: 0;
   position: absolute;
   top: 116px;
-  width: 274px;
+  width: 127px;
 }
 
 .contact .ellipse-4 {
   height: 383px;
-  left: 179px;
+  left: 106px;
   position: absolute;
   top: 0;
   width: 170px;
@@ -102,7 +103,7 @@
 
 .contact .ellipse-6 {
   height: 160px;
-  left: 285px;
+  left: 212px;
   position: absolute;
   top: 39px;
   width: 71px;
@@ -190,7 +191,7 @@
   width: 1013px;
 }
 
-.contact .text-86 {
+.contact .text-82 {
   color: var(--gravel);
   font-family: var(--font-family-zen_kaku_gothic_antique);
   font-size: 15px;
@@ -449,7 +450,7 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
   white-space: nowrap;
 }
 
-.contact .text-85 {
+.contact .text-81 {
   align-self: flex-end;
   letter-spacing: 0;
   line-height: 38px;
@@ -484,7 +485,7 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
   width: 322px;
 }
 
-.contact .text-84 {
+.contact .text-80 {
   color: var(--cod-gray);
   font-family: var(--font-family-oswald);
   font-size: var(--font-size-m);
@@ -732,7 +733,7 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
   letter-spacing: 9.74px;
 }
 
-.contact .text-87 {
+.contact .text-83 {
   height: 49px;
   letter-spacing: 2.44px;
   margin-top: 14px;
@@ -872,7 +873,7 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
   width: 1668px;
 }
 
-.contact2 .effect-shape1 {
+.contact2 .effect-shape {
   align-items: flex-start;
   display: flex;
   height: 439px;
@@ -1004,7 +1005,7 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
   width: 887px;
 }
 
-.contact2 .text-82 {
+.contact2 .text-78 {
   color: var(--gravel);
   font-family: var(--font-family-zen_kaku_gothic_antique);
   font-size: 13.1px;
@@ -1271,7 +1272,7 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
   width: 78px;
 }
 
-.contact2 .text-81 {
+.contact2 .text-77 {
   align-self: flex-end;
   letter-spacing: 0;
   line-height: 33.3px;
@@ -1314,7 +1315,7 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
   width: 282px;
 }
 
-.contact2 .text-80 {
+.contact2 .text-76 {
   color: var(--cod-gray);
   font-family: var(--font-family-oswald);
   font-size: var(--font-size-s);
@@ -1563,7 +1564,7 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
   letter-spacing: 8.53px;
 }
 
-.contact2 .text-83 {
+.contact2 .text-79 {
   height: 49px;
   letter-spacing: 2.13px;
   margin-top: 22px;
@@ -1674,10 +1675,10 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
 
 .contact3 .map-2 {
   height: 442px;
-  left: 126px;
+  left: 127px;
   position: absolute;
   top: 453px;
-  width: 1443px;
+  width: 1440px;
 }
 
 .contact3 .overlap-group6-2 {
@@ -1689,54 +1690,55 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
 }
 
 .contact3 .overlap-group-12 {
-  height: 455px;
-  left: 41px;
+  height: 454px;
+  left: 83px;
   position: absolute;
   top: 0;
-  width: 1530px;
+  width: 1487px;
 }
 
 .contact3 .mask-group-2 {
   background-color: var(--telepossible-white);
   height: 454px;
-  left: 83px;
+  left: 41px;
   position: absolute;
   top: 1px;
   width: 1447px;
 }
 
 .contact3 .rectangle-3-2 {
-  height: 455px;
+  height: 454px;
   left: 0;
   position: absolute;
   top: 0;
-  width: 1431px;
+  width: 1346px;
 }
 
-.contact3 .effect-shape {
+.contact3 .effect-shape2 {
   align-items: flex-start;
   display: flex;
   height: 376px;
+  justify-content: flex-end;
   left: 0;
   min-width: 1565px;
-  padding: 0 15.2px;
+  padding: 0 31.2px;
   position: absolute;
-  top: 89px;
+  top: 88px;
 }
 
 .contact3 .overlap-group1-6 {
   height: 337px;
   margin-top: -0.67px;
   position: relative;
-  width: 268px;
+  width: 213px;
 }
 
 .contact3 .polygon-5-2 {
   height: 179px;
-  left: 10px;
+  left: 5px;
   position: absolute;
   top: 158px;
-  width: 207px;
+  width: 106px;
 }
 
 .contact3 .polygon-9-2 {
@@ -1744,12 +1746,12 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
   left: 0;
   position: absolute;
   top: 87px;
-  width: 207px;
+  width: 96px;
 }
 
 .contact3 .ellipse-4-2 {
   height: 289px;
-  left: 135px;
+  left: 79px;
   position: absolute;
   top: 0;
   width: 128px;
@@ -1757,7 +1759,7 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
 
 .contact3 .ellipse-6-2 {
   height: 121px;
-  left: 214px;
+  left: 159px;
   position: absolute;
   top: 30px;
   width: 54px;
@@ -1845,7 +1847,7 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
   width: 761px;
 }
 
-.contact3 .text-56 {
+.contact3 .text-86 {
   color: var(--gravel);
   font-family: var(--font-family-zen_kaku_gothic_antique);
   font-size: 11.3px;
@@ -2121,7 +2123,7 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
   width: 67px;
 }
 
-.contact3 .text-55 {
+.contact3 .text-85 {
   align-self: flex-end;
   letter-spacing: 0;
   line-height: 28.5px;
@@ -2164,7 +2166,7 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
   width: 241px;
 }
 
-.contact3 .text-54 {
+.contact3 .text-84 {
   color: var(--cod-gray);
   font-family: var(--font-family-oswald);
   font-size: var(--font-size-xs);
@@ -2427,7 +2429,7 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
   letter-spacing: 7.32px;
 }
 
-.contact3 .text-57 {
+.contact3 .text-87 {
   height: 49px;
   letter-spacing: 1.83px;
   margin-top: 30px;
@@ -2523,18 +2525,18 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
    }
 }
 @media screen and (min-width: 1680px) and (max-width: 1919px) {
-  .screen.contact3 { 
+  .screen.contact { 
     display: none;
    }
-  .screen.contact { 
+  .screen.contact3 { 
     display: none;
    }
 }
 @media screen and (min-width: 1920px) {
-  .screen.contact3 { 
+  .screen.contact2 { 
     display: none;
    }
-  .screen.contact2 { 
+  .screen.contact3 { 
     display: none;
    }
 }
