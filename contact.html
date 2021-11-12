@@ -6,32 +6,29 @@
     <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
     <meta name="og:type" content="website" />
     <meta name="twitter:card" content="photo" />
-    <link rel="stylesheet" type="text/css" href="css/contact-2.css" />
+    <link rel="stylesheet" type="text/css" href="css/contact.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://animaapp.s3.amazonaws.com/launchpad-static/launchpad.js"></script>
     <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
     <link rel="stylesheet" type="text/css" href="css/globals.css" />
-    <link href="fcf-assets/css/fcf.default.css" rel="stylesheet">
-    <link href="fcf-assets/css/fcf.default-custom.css" rel="stylesheet">
     <meta name="author" content="AnimaApp.com - Design to code, Automated." />
   </head>
   <body style="margin: 0; background: #ffffff">
-    <input type="hidden" id="anPageName" name="page" value="contact-2" />
+    <input type="hidden" id="anPageName" name="page" value="contact" />
     <div class="container-center-horizontal">
-      <form class="contact-2 screen" name="form11" action="mailto:info@telepossible.com" method="POST">
-        <div class="overlap-group7">
+      <div class="contact screen">
+        <div class="overlap-group4">
           <img class="map" src="img/map----------@1x.svg" />
-          <div class="overlap-group6">
-            <div class="overlap-group-1">
-              <div class="mask-group"></div>
-              <img class="rectangle-3" src="img/rectangle-3@1x.svg" />
-            </div>
+          <div class="overlap-group3">
+            <div class="bg-image"></div>
             <div class="effect-shape">
-              <div class="overlap-group1">
+              <div class="overlap-group">
                 <img class="polygon-5" src="img/polygon-5@2x.svg" />
                 <img class="polygon-9" src="img/polygon-5@2x.svg" />
                 <img class="ellipse-4" src="img/ellipse-4@2x.svg" />
                 <img class="ellipse-6" src="img/ellipse-6@2x.svg" />
               </div>
-              <div class="overlap-group2">
+              <div class="overlap-group1">
                 <img class="polygon-6" src="img/polygon-6@2x.svg" />
                 <img class="polygon-7" src="img/polygon-7@2x.svg" />
                 <img class="polygon-8" src="img/polygon-8@2x.svg" />
@@ -39,88 +36,32 @@
               </div>
             </div>
             <div class="text">
-              <div class="overlap-group3">
+              <div class="overlap-group2">
                 <img class="underline" src="img/underline@2x.svg" />
-                <div class="place">Contact</div>
+                <h1 class="place" id="place">Contact</h1>
               </div>
-              <p class="text-90">We are looking forward to hearing from you</p>
+              <p class="text-3">We are looking forward to hearing from you</p>
             </div>
           </div>
           <div class="header">
             <a href="index.html"><img class="logo-img" src="img/logo-img@2x.png" /> </a>
-            <div class="header-icons heebo-normal-licorice-20px">
-              <a href="index.html" onclick="window.event.stopPropagation()">
+            <div class="header-icons">
+              <a href="index.html">
                 <div class="icon-1"><div class="place-1 heebo-normal-licorice-20px">HOME</div></div></a
-              ><a href="about.html" onclick="window.event.stopPropagation()">
+              ><a href="about.html">
                 <div class="icon-2"><div class="about heebo-normal-licorice-20px">ABOUT</div></div></a
               >
-              <div class="works">WORKS</div>
-              <div class="place-2">CONTACT</div>
+              <div class="works heebo-normal-licorice-20px">WORKS</div>
+              <a href="#place">
+                <div class="icon-4"><div class="place-2 heebo-normal-licorice-20px">CONTACT</div></div></a
+              >
             </div>
           </div>
         </div>
-        <div class="container-center-horizontal">
-          <div class="fcf-body">
-            <div class="fcf-form-wrap">
-                <div id="fcf-form">
-                    <form class="fcf-form-class" method="post" action="fcf-assets/fcf.process.php">
-    
-                        <div class="fcf-field">
-                            <label for="Name" class="fcf-label has-text-weight-normal">Your name</label>
-                            <div class="fcf-control">
-                                <input type="text" name="Name" id="Name" class="fcf-input is-full-width" maxlength="60"
-                                    data-validate-field="Name">
-                            </div>
-                        </div>
-                        <div class="fcf-field">
-                            <label for="Email" class="fcf-label has-text-weight-normal">Your email address</label>
-                            <div class="fcf-control">
-                                <input type="email" name="Email" id="Email" class="fcf-input is-full-width" maxlength="100"
-                                    data-validate-field="Email">
-                            </div>
-                        </div>
-                        <div class="fcf-field">
-                            <label for="Phone" class="fcf-label has-text-weight-normal">Your phone number (optional)</label>
-                            <div class="fcf-control">
-                                <input type="text" name="Phone" id="Phone" class="fcf-input is-full-width" maxlength="30"
-                                    data-validate-field="Phone">
-                            </div>
-                        </div>
-                        <div class="fcf-field">
-                            <label for="Message" class="fcf-label has-text-weight-normal">Your message</label>
-                            <div class="fcf-control">
-                                <textarea name="Message" id="Message" class="fcf-textarea" maxlength="3000" rows="5"
-                                    data-validate-field="Message"></textarea>
-                            </div>
-                        </div>
-                        <div id="fcf-status" class="fcf-status"></div>
-                        <div class="fcf-field">
-                            <div class="fcf-buttons">
-                                <button id="fcf-button" type="submit" class="fcf-button is-link is-medium is-fullwidth">Send
-                                    Message</button>
-                            </div>
-                        </div>
-                        <!-- You MUST retain the attribution below -->
-                        <div class="fcf-attribution">Contact Form by <a href="https://www.freecontactform.com/"
-                                class="fcf-attribution-link">FreeContactForm</a></div>
-                    </form>
-                </div>
-                <div id="fcf-thank-you" style="display:none">
-                    <!-- Thank you message goes below -->
-                    <p>Thanks for contacting us, we will get back in touch with you soon.</p>
-                    <!-- Thank you message goes above -->
-                </div>
-            </div>
-          </div>
-      </div>
-      <script src="fcf-assets/js/lang/fcf.en.js"></script>
-      <script src="fcf-assets/js/fcf.just-validate.min.js"></script>
-      <script src="fcf-assets/js/fcf.form.js"></script>
-        
-        <!-- <div class="list-of-help">
+        <div class="list-of-help">
           <div class="call">
             <div class="overlap-group2-1">
-              <div class="overlap-group-2">
+              <div class="overlap-group-1">
                 <div class="call-us notoserif-bold-black-24px">Call us</div>
                 <img class="call-svgrepo-com-2" src="img/call-svgrepo-com-2@2x.svg" />
                 <img class="call-svgrepo-com-1" src="img/call-svgrepo-com-1@2x.svg" />
@@ -131,57 +72,54 @@
           <div class="list-of-help-item">
             <div class="overlap-group1-1">
               <img class="location-1" src="img/location-1@2x.svg" />
-              <div class="overlap-group-3">
+              <div class="overlap-group-2">
                 <p class="address oswald-normal-black-16px">333 Logan Ave, State College, PA 16801</p>
                 <div class="address-1 notoserif-bold-black-24px">Address</div>
               </div>
             </div>
           </div>
           <div class="list-of-help-item">
-            <div class="overlap-group-4">
-              <img class="group" src="img/group-3@2x.svg" />
+            <div class="overlap-group-3">
+              <img class="group" src="img/group@2x.svg" />
               <div class="mail-us notoserif-bold-black-24px">Mail us</div>
-              <div class="text-89 oswald-normal-black-16px">info@telepossible.com</div>
+              <div class="text-2 oswald-normal-black-16px">info@telepossible.com</div>
             </div>
           </div>
-        </div> -->
-        
-
-        <!-- <div class="footer">
-          <div class="upper"><img class="line-1" src="img/line-1-1@1x.svg" /></div>
-          <div class="contents">
-            <div class="x1">
-              <img class="logo" src="img/logo@2x.png" />
-              <div class="contact-info">
-                <div class="contact-info-1 valign-text-middle oswald-bold-black-24-4px">CONTACT INFO</div>
-                <div class="text-91 valign-text-middle alternategothicatf-semi-light-black-24-4px">
-                  E-MAIL : info@telepossible.com<br />Telephone : +1 - 484 - 743 - 6940
+        </div>
+        <div class="footer">
+          <div class="overlap-group1-2">
+            <div class="contents">
+              <div class="x1">
+                <img class="logo" src="img/logo@2x.png" />
+                <div class="contact-info">
+                  <div class="contact-info-1 valign-text-middle roboto-bold-black-24-1px">CONTACT INFO</div>
+                  <div class="text-1 valign-text-middle zenmarugothic-normal-black-20px">
+                    E-MAIL : info@telepossible.com<br />Telephone : +1 - 484 - 743 - 6940
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="x2">
-              <div class="connect-with-us valign-text-middle oswald-bold-black-24-4px">CONNECT WITH US</div>
-              <div class="icons">
-                <img class="instagram-icon" src="img/instagram-icon@2x.png" />
-                <img class="x-icon" src="img/twitter-icon-1@2x.png" />
-                <img class="x-icon" src="img/facebook-icon-1@2x.png" />
+              <div class="x2">
+                <div class="connect-with-us valign-text-middle roboto-bold-black-24-1px">CONNECT WITH US</div>
+                <div class="icons">
+                  <img class="instagram-icon" src="img/instagram-icon@2x.png" />
+                  <img class="x-icon" src="img/twitter-icon@2x.png" />
+                  <img class="x-icon" src="img/facebook-icon@2x.png" />
+                </div>
+              </div>
+              <div class="law valign-text-middle zenmarugothic-normal-gray-20px">
+                TelePossible Inc. is a nonprofit, tax-exempt charitable organization under Section 501(c)(3) of the
+                Internal Revenue Code. Donations are tax-deductible as allowed by law
               </div>
             </div>
-            <div class="law valign-text-middle alternategothicatf-semi-light-gray-24-4px">
-              TelePossible Inc. is a nonprofit, tax-exempt charitable organization (tax ID number **-*******) under
-              Section 501(c)(3) of the Internal Revenue Code. Donations are tax-deductible as allowed by law.
-            </div>
+            <div class="upper"><img class="line-1" src="img/line-1@1x.svg" /></div>
           </div>
           <div class="copyright">
-            <div class="overlap-group-6">
-              <p class="text-1 valign-text-middle oswald-light-white-13-5px">
-                Copyright © 2021 TelePossible / Kenzy Kim
-              </p>
+            <div class="overlap-group-4">
+              <div class="text-4 valign-text-middle zenmarugothic-light-white-16px">Copyright © 2021 TelePossible</div>
             </div>
           </div>
-        </div> -->
-      </form>
+        </div>
+      </div>
     </div>
-
   </body>
 </html>
