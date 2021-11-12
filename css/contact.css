@@ -173,7 +173,7 @@
   width: 1013px;
 }
 
-.contact .text-3 {
+.contact .text-15 {
   color: #494949;
   font-family: var(--font-family-zen_kaku_gothic_antique);
   font-size: 15px;
@@ -206,7 +206,7 @@
 }
 
 .contact .header-icons {
-  align-items: center;
+  align-items: flex-start;
   display: flex;
   margin-left: 414px;
   min-width: 800px;
@@ -245,9 +245,18 @@
   width: 90px;
 }
 
+.contact .icon-3 {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  height: 55px;
+  margin-left: 38px;
+  min-width: 172px;
+  padding: 0 25px;
+}
+
 .contact .works {
   letter-spacing: 5.00px;
-  margin-left: 63px;
   min-height: 29px;
   text-align: center;
   width: 120px;
@@ -258,7 +267,7 @@
   cursor: pointer;
   display: flex;
   height: 55px;
-  margin-left: 65px;
+  margin-left: 38px;
   min-width: 172px;
   padding: 0 10px;
 }
@@ -440,7 +449,7 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
   white-space: nowrap;
 }
 
-.contact .text-2 {
+.contact .text-14 {
   align-self: flex-end;
   letter-spacing: 0;
   line-height: 38px;
@@ -515,7 +524,7 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
   width: 274px;
 }
 
-.contact .text-1 {
+.contact .text-13 {
   height: 65px;
   letter-spacing: 2.00px;
   margin-top: 11px;
@@ -608,7 +617,7 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
   padding: 21.4px 721.8px;
 }
 
-.contact .text-4 {
+.contact .text-1 {
   height: 23px;
   letter-spacing: 9.62px;
   text-align: center;

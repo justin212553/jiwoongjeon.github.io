@@ -1,0 +1,263 @@
+/* screen - work */
+
+.work {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 2072px;
+  overflow: hidden;
+  width: 1920px;
+}
+
+.work .header {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  height: 85px;
+  min-width: 1920px;
+  padding: 0 29.9px;
+}
+
+.work .logo-img {
+  cursor: pointer;
+  height: 55px;
+  object-fit: cover;
+  width: 116px;
+}
+
+.work .header-icons {
+  align-items: center;
+  display: flex;
+  margin-left: 414px;
+  min-width: 800px;
+}
+
+.work .icon-1 {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  height: 55px;
+  min-width: 172px;
+  padding: 0 40px;
+}
+
+.work .place {
+  letter-spacing: 5.00px;
+  min-height: 29px;
+  text-align: center;
+  width: 90px;
+}
+
+.work .icon-2 {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  height: 55px;
+  margin-left: 38px;
+  min-width: 172px;
+  padding: 0 40px;
+}
+
+.work .about {
+  letter-spacing: 5.00px;
+  min-height: 29px;
+  text-align: center;
+  width: 90px;
+}
+
+.work .icon-3 {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  height: 55px;
+  margin-left: 38px;
+  min-width: 172px;
+  padding: 0 25px;
+}
+
+.work .works {
+  letter-spacing: 5.00px;
+  min-height: 29px;
+  text-align: center;
+  width: 120px;
+}
+
+.work .place-1 {
+  letter-spacing: 5.00px;
+  margin-left: 48px;
+  min-height: 29px;
+  text-align: center;
+  width: 150px;
+}
+
+.work .image-5 {
+  height: 1367px;
+  margin-left: 2px;
+  margin-top: 110px;
+  object-fit: cover;
+  width: 1920px;
+}
+
+.work .footer {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  margin-top: 109px;
+  min-height: 400px;
+  width: 1920px;
+}
+
+.work .overlap-group1 {
+  height: 307px;
+  margin-left: 0;
+  position: relative;
+  width: 1925px;
+}
+
+.work .contents {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 267px;
+  justify-content: flex-end;
+  left: 0;
+  min-width: 1925px;
+  padding: 66.8px 37.4px;
+  position: absolute;
+  top: 40px;
+}
+
+.work .x1 {
+  align-items: flex-end;
+  display: flex;
+  height: 112px;
+  justify-content: flex-end;
+  margin-top: 0;
+  min-width: 458px;
+}
+
+.work .logo {
+  height: 74px;
+  margin-bottom: 8.33px;
+  object-fit: cover;
+  width: 68px;
+}
+
+.work .contact-info {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0;
+  margin-left: 37px;
+  min-height: 104px;
+  width: 358px;
+}
+
+.work .contact-info-1 {
+  height: 28px;
+  letter-spacing: 9.62px;
+  margin-left: 0;
+  width: 274px;
+}
+
+.work .text-16 {
+  height: 65px;
+  letter-spacing: 2.00px;
+  margin-top: 11px;
+  width: 354px;
+}
+
+.work .x2 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 235px;
+  margin-top: 0;
+  min-height: 132px;
+  padding: 0.0px 0;
+  width: 414px;
+}
+
+.work .connect-with-us {
+  height: 28px;
+  letter-spacing: 9.62px;
+  margin-right: 0;
+  margin-top: 8px;
+  text-align: center;
+  width: 348px;
+}
+
+.work .icons {
+  align-items: flex-start;
+  display: flex;
+  height: 67px;
+  margin-right: 0;
+  margin-top: 29px;
+  min-width: 414px;
+}
+
+.work .instagram-icon {
+  height: 68px;
+  margin-top: -0.33px;
+  object-fit: cover;
+  width: 68px;
+}
+
+.work .x-icon {
+  height: 68px;
+  margin-left: 106px;
+  margin-top: -0.33px;
+  object-fit: cover;
+  width: 68px;
+}
+
+.work .law {
+  align-self: flex-end;
+  height: 134px;
+  letter-spacing: -0.40px;
+  margin-left: 210px;
+  width: 508px;
+}
+
+.work .upper {
+  align-items: flex-start;
+  display: flex;
+  height: 67px;
+  left: 0;
+  padding: 32.4px 348.4px;
+  position: absolute;
+  top: 0;
+  width: 1925px;
+}
+
+.work .line-1 {
+  height: 2px;
+  width: 1204px;
+}
+
+.work .copyright {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  margin-left: 0;
+  margin-top: 27px;
+  min-width: 1925px;
+}
+
+.work .overlap-group {
+  align-items: flex-end;
+  background-color: var(--telepossible-blue);
+  display: flex;
+  height: 67px;
+  min-width: 1925px;
+  padding: 21.4px 721.8px;
+}
+
+.work .text {
+  height: 23px;
+  letter-spacing: 9.62px;
+  text-align: center;
+  width: 480px;
+}

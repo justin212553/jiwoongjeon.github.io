@@ -66,9 +66,18 @@
   width: 90px;
 }
 
+.about .icon-3 {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  height: 55px;
+  margin-left: 80px;
+  min-width: 172px;
+  padding: 0 25px;
+}
+
 .about .works {
   letter-spacing: 5.00px;
-  margin-left: 105px;
   min-height: 29px;
   text-align: center;
   width: 120px;
@@ -79,7 +88,7 @@
   cursor: pointer;
   display: flex;
   height: 55px;
-  margin-left: 65px;
+  margin-left: 38px;
   min-width: 172px;
   padding: 0 10px;
 }
@@ -145,13 +154,13 @@
   width: 617px;
 }
 
-.about .text-15 {
+.about .text-12 {
   letter-spacing: 0;
   min-height: 150px;
   width: 470px;
 }
 
-.about .text-14 {
+.about .text-11 {
   color: var(--jaguar);
   font-family: var(--font-family-zen_maru_gothic);
   font-size: var(--font-size-s);
@@ -230,7 +239,7 @@
   width: 124px;
 }
 
-.about .text-13 {
+.about .text-10 {
   color: var(--jaguar);
   font-family: var(--font-family-zen_maru_gothic);
   font-size: var(--font-size-xxxxs);
@@ -306,7 +315,7 @@
   width: 124px;
 }
 
-.about .text-8 {
+.about .text-5 {
   color: var(--jaguar);
   font-family: var(--font-family-zen_maru_gothic);
   font-size: var(--font-size-xxxs);
@@ -354,7 +363,7 @@
   min-height: 75px;
 }
 
-.about .text-9 {
+.about .text-6 {
   color: var(--jaguar);
   font-family: var(--font-family-zen_maru_gothic);
   font-size: var(--font-size-xxxs);
@@ -367,7 +376,7 @@
   width: 484px;
 }
 
-.about .text-10 {
+.about .text-7 {
   color: transparent;
   font-family: var(--font-family-zen_maru_gothic);
   font-size: var(--font-size-xxxs);
@@ -428,7 +437,7 @@
   min-height: 75px;
 }
 
-.about .text-11 {
+.about .text-8 {
   color: var(--telepossible-red);
   font-family: var(--font-family-noto_serif);
   font-size: 30px;
@@ -441,7 +450,7 @@
   white-space: nowrap;
 }
 
-.about .text-12 {
+.about .text-9 {
   align-self: flex-end;
   color: var(--jaguar);
   font-family: var(--font-family-zen_maru_gothic);
@@ -483,7 +492,7 @@
   width: 467px;
 }
 
-.about .text-7 {
+.about .text-4 {
   color: #fab586;
   font-family: var(--font-family-oswald);
   font-size: var(--font-size-xxs);
@@ -728,7 +737,7 @@
   width: 70px;
 }
 
-.about .text-4 {
+.about .text-13 {
   align-self: flex-start;
   height: 47px;
   margin-top: 44px;
@@ -754,7 +763,7 @@
   width: 250px;
 }
 
-.about .text-6 {
+.about .text-3-1 {
   letter-spacing: 0;
   margin-right: 4.0px;
   margin-top: 16px;
@@ -806,7 +815,7 @@
   text-align: center;
 }
 
-.about .text-5 {
+.about .text-2-1 {
   letter-spacing: 0;
   margin-right: 4.0px;
   margin-top: 3px;
@@ -825,10 +834,17 @@
 
 .about .list-1 {
   align-items: flex-start;
+  cursor: pointer;
   display: flex;
   flex-direction: column;
   min-height: 591px;
+  transition: all 0.2s ease;
   width: 370px;
+}
+
+.about .list-1:hover {
+  transform: translate(0, -5px);
+box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
 }
 
 .about .image-3 {
@@ -888,11 +904,18 @@
 
 .about .list-2 {
   align-items: flex-start;
+  cursor: pointer;
   display: flex;
   flex-direction: column;
   margin-left: 40px;
   min-height: 591px;
+  transition: all 0.2s ease;
   width: 370px;
+}
+
+.about .list-2:hover {
+  transform: translate(0, -5px);
+box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
 }
 
 .about .image-4 {
@@ -953,11 +976,18 @@
 
 .about .list-3 {
   align-items: flex-start;
+  cursor: pointer;
   display: flex;
   flex-direction: column;
   margin-left: 30px;
   min-height: 591px;
+  transition: all 0.2s ease;
   width: 370px;
+}
+
+.about .list-3:hover {
+  transform: translate(0, -5px);
+box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
 }
 
 .about .image-5 {
@@ -1064,7 +1094,7 @@
   width: 274px;
 }
 
-.about .text-4-1 {
+.about .text-1-1 {
   height: 65px;
   letter-spacing: 2.00px;
   margin-top: 11px;
@@ -1157,7 +1187,7 @@
   padding: 21.4px 721.8px;
 }
 
-.about .text-16 {
+.about .text-14 {
   height: 23px;
   letter-spacing: 9.62px;
   text-align: center;

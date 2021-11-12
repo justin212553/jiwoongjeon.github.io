@@ -7,6 +7,8 @@
     <meta name="og:type" content="website" />
     <meta name="twitter:card" content="photo" />
     <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://animaapp.s3.amazonaws.com/launchpad-static/launchpad.js"></script>
     <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
     <link rel="stylesheet" type="text/css" href="css/globals.css" />
     <meta name="author" content="AnimaApp.com - Design to code, Automated." />
@@ -28,12 +30,12 @@
               <img class="image-1" src="img/image-4@1x.svg" />
               <img class="ellipse-714" src="img/ellipse-714@2x.svg" />
             </div>
-            <div class="text">
+            <div class="text-1">
               <div class="we-are-here-to notoserif-bold-white-55px">
                 <span class="notoserif-bold-jaguar-55px-2">We are here to</span
                 ><span class="notoserif-bold-cinnabar-55px">,</span>
               </div>
-              <div class="text-29 valign-text-middle">
+              <div class="text-30 valign-text-middle">
                 <span
                   ><span class="span0">TelePossible</span
                   ><span class="span-1 zenkakugothicnew-medium-jaguar-25px">
@@ -42,7 +44,7 @@
                   ><span class="span-1 zenkakugothicnew-medium-blue-gray-25px">starting in Laos</span>
                 </span>
               </div>
-              <div class="text-28 valign-text-middle">
+              <div class="text-29 valign-text-middle">
                 <span
                   ><span class="span-1 zenkakugothicnew-medium-jaguar-25px">Providing </span
                   ><span class="span-1 zenkakugothicnew-medium-blue-gray-25px">consistent</span
@@ -64,23 +66,28 @@
           </div>
           <div class="overlap-group6">
             <img class="bg-image" src="img/bg-image-@1x.svg" />
-            <img class="effect-shape" src="img/effect-shape-@1x.svg" />
-            <div class="overlap-group-2">
-              <div class="rectangle-702"></div>
-              <div class="join-now">Join Now</div>
-            </div>
+            <img class="effect-shape" id="effect-shape" src="img/effect-shape-@1x.svg" />
+            <a href="contact.html">
+              <div class="donation-button">
+                <div class="overlap-group-2">
+                  <div class="rectangle-702"></div>
+                  <div class="join-now">Join Now</div>
+                </div>
+              </div></a
+            >
             <div class="text-2 valign-text-middle">Hope runs from <br />screen to the World</div>
           </div>
         </div>
         <div class="header">
-          <img class="logo-img" src="img/logo-img@2x.png" />
-          <div class="header-icons heebo-normal-licorice-20px">
-            <div class="place">HOME</div>
-            <a href="about.html">
+          <a href="#effect-shape"><img class="logo-img" src="img/logo-img@2x.png" /> </a>
+          <div class="header-icons">
+            <a href="#effect-shape">
+              <div class="icon-1"><div class="place heebo-normal-licorice-20px">HOME</div></div></a
+            ><a href="about.html">
               <div class="icon-2"><div class="about heebo-normal-licorice-20px">ABOUT</div></div></a
-            >
-            <div class="works">WORKS</div>
-            <div class="place-1">CONTACT</div>
+            ><a href="work.html">
+              <div class="icon-3"><div class="works heebo-normal-licorice-20px">WORKS</div></div></a
+            ><a href="contact.html"><div class="place-1 heebo-normal-licorice-20px">CONTACT</div></a>
           </div>
         </div>
         <div class="x3-three-obligations">
@@ -105,7 +112,7 @@
             </div>
             <div class="title-2">
               <div class="obligations valign-text-middle oswald-normal-aqua-pearl-20px">OBLIGATIONS</div>
-              <div class="text-27 notoserif-bold-white-55px">
+              <div class="text-28 notoserif-bold-white-55px">
                 <span class="notoserif-bold-jaguar-55px">TelePossible</span
                 ><span class="notoserif-bold-cinnabar-55px">’</span
                 ><span class="notoserif-bold-jaguar-55px">s Three Obligations</span>
@@ -127,7 +134,7 @@
             <div class="title-3 valign-text-middle notoserif-bold-cod-gray-55px">
               Leading to change <br />begins here
             </div>
-            <div class="text-26">
+            <div class="text-27">
               <span class="span-2">Our first target population are Laotian citizens in </span
               ><span class="span1">the Lao People&#39;s Democratic Republic</span
               ><span class="span-2"
@@ -142,7 +149,7 @@
         <div class="x5-funding-goals">
           <div class="title-4">
             <div class="donation-goals">DONATION GOALS</div>
-            <div class="text-25 notoserif-bold-cod-gray-55px">We need your help <br />to make this happen</div>
+            <div class="text-26 notoserif-bold-cod-gray-55px">We need your help <br />to make this happen</div>
           </div>
           <div class="blocks-1">
             <img class="list-1" src="img/list-1@1x.svg" />
@@ -157,10 +164,10 @@
               <div class="box-1">
                 <img class="x1-plus" src="img/1-plus@2x.svg" />
                 <div class="flex-col">
-                  <div class="text-21 robotoslab-medium-black-20px">
+                  <div class="text-22 robotoslab-medium-black-20px">
                     How can I get involved TelePossible and help others?
                   </div>
-                  <div class="text-20">
+                  <div class="text-21">
                     Unlike a face-to-face medical appointment where a doctor can directly check the patient&#39;s
                     physical condition and symptoms, remote telemedicine communication only allows doctors to provide
                     diagnosis through indirect measures, such as patient&#39;s descriptions of their symptoms, x-ray,
@@ -172,21 +179,21 @@
               </div>
               <div class="box-2">
                 <img class="x2-plus" src="img/4-plus@2x.svg" />
-                <div class="text-1 robotoslab-medium-black-20px">
+                <div class="text robotoslab-medium-black-20px">
                   Establish nationwide telemedicine governance in collaboration <br />with international and local
                   medical staff
                 </div>
               </div>
               <div class="box-3">
                 <img class="x3-plus" src="img/4-plus@2x.svg" />
-                <div class="text-1 robotoslab-medium-black-20px">
+                <div class="text robotoslab-medium-black-20px">
                   Overcome difficulties of providi ng in-person diagnoses <br />due to COVID-19 and&nbsp;&nbsp;other
                   infectious disease
                 </div>
               </div>
               <div class="box-4">
                 <img class="x4-plus" src="img/4-plus@2x.svg" />
-                <div class="text-17 robotoslab-medium-black-20px">
+                <div class="text-18 robotoslab-medium-black-20px">
                   Help countries in need of medical aid beginning with Laos and expanding worldwide
                 </div>
               </div>
@@ -197,17 +204,17 @@
               >
             </div>
             <div class="text-7">
-              <div class="text-24 notoserif-bold-white-55px">
+              <div class="text-25 notoserif-bold-white-55px">
                 <span class="notoserif-bold-jaguar-55px-2">TelePossible needs <br />doctor</span
                 ><span class="notoserif-bold-cinnabar-55px">’</span
                 ><span class="notoserif-bold-jaguar-55px-2">s help</span>
               </div>
-              <div class="text-23 zenkakugothicnew-medium-jaguar-25px">
+              <div class="text-24 zenkakugothicnew-medium-jaguar-25px">
                 We are in the process of recruiting doctors and physicians for our service. Our mission is to provide
                 consistent, long-term medical aid to developing countries. The hope is that the TelePossible can provide
                 a meaningful medical platform that can break the spatial, and language barrier between nations.
               </div>
-              <div class="text-22">A relationship where we care</div>
+              <div class="text-23">A relationship where we care</div>
             </div>
           </div>
         </div>
@@ -218,7 +225,7 @@
                 <img class="logo" src="img/logo-1@2x.png" />
                 <div class="contact-info">
                   <div class="contact-info-1 valign-text-middle roboto-bold-black-24-1px">CONTACT INFO</div>
-                  <div class="text-16 valign-text-middle zenmarugothic-normal-black-20px">
+                  <div class="text-17 valign-text-middle zenmarugothic-normal-black-20px">
                     E-MAIL : info@telepossible.com<br />Telephone : +1 - 484 - 743 - 6940
                   </div>
                 </div>

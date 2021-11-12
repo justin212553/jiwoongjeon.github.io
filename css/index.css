@@ -97,7 +97,7 @@
   width: 278px;
 }
 
-.index .text {
+.index .text-1 {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
@@ -113,7 +113,7 @@
   min-height: 75px;
 }
 
-.index .text-29 {
+.index .text-30 {
   color: transparent;
   font-family: var(--font-family-zen_kaku_gothic_new);
   font-size: var(--font-size-m);
@@ -135,7 +135,7 @@
   letter-spacing: 0.50px;
 }
 
-.index .text-28 {
+.index .text-29 {
   color: transparent;
   font-family: var(--font-family-zen_kaku_gothic_new);
   font-size: var(--font-size-m);
@@ -200,11 +200,20 @@
   width: 2643px;
 }
 
-.index .overlap-group-2 {
+.index .donation-button {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
   height: 120px;
   left: 625px;
+  min-width: 228px;
   position: absolute;
   top: 765px;
+}
+
+.index .overlap-group-2 {
+  height: 120px;
+  position: relative;
   width: 226px;
 }
 
@@ -259,6 +268,7 @@
 }
 
 .index .logo-img {
+  cursor: pointer;
   height: 55px;
   object-fit: cover;
   width: 116px;
@@ -267,10 +277,17 @@
 .index .header-icons {
   align-items: center;
   display: flex;
-  justify-content: flex-end;
   margin-left: 414px;
   min-width: 800px;
-  padding: 0 10px;
+}
+
+.index .icon-1 {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  height: 55px;
+  min-width: 172px;
+  padding: 0 40px;
 }
 
 .index .place {
@@ -285,7 +302,7 @@
   cursor: pointer;
   display: flex;
   height: 55px;
-  margin-left: 80px;
+  margin-left: 38px;
   min-width: 172px;
   padding: 0 40px;
 }
@@ -297,17 +314,27 @@
   width: 90px;
 }
 
+.index .icon-3 {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  height: 55px;
+  margin-left: 38px;
+  min-width: 172px;
+  padding: 0 25px;
+}
+
 .index .works {
   letter-spacing: 5.00px;
-  margin-left: 63px;
   min-height: 29px;
   text-align: center;
   width: 120px;
 }
 
 .index .place-1 {
+  cursor: pointer;
   letter-spacing: 5.00px;
-  margin-left: 75px;
+  margin-left: 48px;
   min-height: 29px;
   text-align: center;
   width: 150px;
@@ -485,7 +512,7 @@
   width: 250px;
 }
 
-.index .text-27 {
+.index .text-28 {
   letter-spacing: 0;
   margin-right: 4.0px;
   margin-top: 16px;
@@ -574,7 +601,7 @@
   margin-top: 25px;
 }
 
-.index .text-26 {
+.index .text-27 {
   color: transparent;
   font-family: var(--font-family-zen_kaku_gothic_new);
   font-size: var(--font-size-m);
@@ -635,7 +662,7 @@
   text-align: center;
 }
 
-.index .text-25 {
+.index .text-26 {
   letter-spacing: 0;
   margin-right: 4.0px;
   margin-top: 14px;
@@ -737,14 +764,14 @@
   width: 755px;
 }
 
-.index .text-21 {
+.index .text-22 {
   letter-spacing: -0.40px;
   line-height: 30px;
   min-height: 30px;
   white-space: nowrap;
 }
 
-.index .text-20 {
+.index .text-21 {
   color: var(--black);
   font-family: var(--font-family-zen_kaku_gothic_new);
   font-size: var(--font-size-xxxs);
@@ -773,7 +800,7 @@
   width: 11px;
 }
 
-.index .text-1 {
+.index .text {
   letter-spacing: -0.40px;
   line-height: 30px;
   margin-left: 18px;
@@ -812,7 +839,7 @@
   width: 11px;
 }
 
-.index .text-17 {
+.index .text-18 {
   letter-spacing: -0.40px;
   line-height: 30px;
   margin-left: 18px;
@@ -863,12 +890,12 @@
   width: 542px;
 }
 
-.index .text-24 {
+.index .text-25 {
   letter-spacing: 0;
   min-height: 150px;
 }
 
-.index .text-23 {
+.index .text-24 {
   letter-spacing: 2.00px;
   margin-top: 33px;
   min-height: 324px;
@@ -876,7 +903,7 @@
   width: 530px;
 }
 
-.index .text-22 {
+.index .text-23 {
   color: var(--telepossible-blue);
   font-family: var(--font-family-roboto_slab);
   font-size: 34px;
@@ -892,7 +919,7 @@
   display: flex;
   flex-direction: column;
   margin-right: 6.0px;
-  margin-top: 280px;
+  margin-top: 260px;
   min-height: 400px;
   width: 1920px;
   z-index: 1;
@@ -951,7 +978,7 @@
   width: 274px;
 }
 
-.index .text-16 {
+.index .text-17 {
   height: 65px;
   letter-spacing: 2.00px;
   margin-top: 11px;
